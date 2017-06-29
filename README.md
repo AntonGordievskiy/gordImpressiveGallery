@@ -63,6 +63,7 @@ var arrayOfObjects = `[
     ...
 ]`;
 ```
+
 *    Use absolute paths.*
 
 **Optional settings:**
