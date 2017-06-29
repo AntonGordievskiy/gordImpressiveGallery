@@ -17,7 +17,7 @@ The images are set to the minimum height of their display, which can increase du
 <script type="text/javascript" src="js/gordImpressiveGallery.js"></script>
 ```
 
-**Prepare an <ul> container tag like this:**
+**Create a container such as:**
     
 ```
 #!html
@@ -25,7 +25,7 @@ The images are set to the minimum height of their display, which can increase du
 <section id="gallery"></section>
 ```
 
-*You can use any class name, the main thing is to transfer the component to the container, in which it will place the necessary DOM and perform the necessary actions.*
+*You can use any class or id, but remember that if you have several galleries, you need to create them one at a time.*
 
 **Fire plugin using jQuery selector**
 
@@ -34,17 +34,13 @@ This is a basic use case (mostly default settings):
 ```
 #!javascript
 
-$('.horizontal-hover-effect').gordHoverEffect({
-    itemsNames: [
-        'item 1',
-        'item 2',
-        'item 3'
-    ],
-    itemsLinks: [
-        '/item-1',
-        '/item-2',
-        '/item-3'
-    ]
+$('#gallery').gordImpressiveGallery({
+    sourceURL        : "https://gordievskiy.com/lab/gordImpressiveGallery/arrayOfObjects",
+    initHeight       : 200,
+    imagesBackground : 'lightgrey',
+    margin           : 2,
+    minContainerWidth: 0,
+    maxContainerWidth: 1200
 });
 ```
 
