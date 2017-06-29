@@ -113,7 +113,6 @@ var arrayOfObjects = `[
     <head>
         <meta charset="utf-8">
         <title>Impressive Gallery</title>
-        <link href="css/style.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
