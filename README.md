@@ -57,7 +57,8 @@ $('#gallery').gordImpressiveGallery({
 
 var arrayOfObjects = `[
     { "filename": "beautiful-img.jpg", "height": "500", "width": "700" },
-    { "filename": "beautiful-img.jpg", "height": "500", "width": "700" } 
+    { "filename": "beautiful-img.jpg", "height": "500", "width": "700" },
+    ...
 ]`;
 ```
 
