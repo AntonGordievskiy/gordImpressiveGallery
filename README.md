@@ -3,6 +3,8 @@
 Сomponent creates a gallery of images based on the JSON array of objects, each of which contains the name, width and height of the image.
 The images are set to the minimum height of their display, which can increase during the operation of the component, so that images occupy the entire available width of the container. The proportions are preserved.
 
+If any image can not be downloaded, it is removed from the issuance, and the gallery is automatically recalculated.
+
 [Demo](https://gordievskiy.com/lab/gordImpressiveGallery)
 
 ## How to use? ##
