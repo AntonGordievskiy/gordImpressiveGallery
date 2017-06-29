@@ -58,11 +58,12 @@ $('#gallery').gordImpressiveGallery({
 #!javascript
 
 var arrayOfObjects = `[
-    { "filename": "beautiful-img.jpg", "height": "500", "width": "700" },
-    { "filename": "beautiful-img.jpg", "height": "500", "width": "700" },
+    {"filename":"https://gordievskiy.com/lab/gordImpressiveGallery/img/img-1.jpg","width":"480","height":"360"},
+    {"filename":"https://gordievskiy.com/lab/gordImpressiveGallery/img/img-2.jpg","width":"480","height":"360"},
     ...
 ]`;
 ```
+*Use absolute paths.*
 
 **Optional settings:**
 
