@@ -1,8 +1,9 @@
-## gordHoverEffect ##
+## gordImpressiveGallery ##
 
-This component creates menu items in the specified container, and by means of pseudo-classes organizes the effect of flow from one items to another while user moves a mouse pointer over your menu.
+Сomponent creates a gallery of images based on the JSON array of objects, each of which contains the name, width and height of the image.
+The images are set to the minimum height of their display, which can increase during the operation of the component, so that images occupy the entire available width of the container. The proportions are preserved.
 
-[Demo](https://gordievskiy.com/lab/gordHoverEffect)
+[Demo](https://gordievskiy.com/lab/gordImpressiveGallery)
 
 ## How to use? ##
 
@@ -13,29 +14,15 @@ This component creates menu items in the specified container, and by means of ps
 ```
 #!html
 
-<script type="text/javascript" src="js/gordHoverEffect.js"></script>
+<script type="text/javascript" src="js/gordImpressiveGallery.js"></script>
 ```
-
-**Add CSS file:**
-    
-```
-#!html
-
-<link href="css/gordHoverEffect.css" rel="stylesheet">
-```
-*Read carefully the CSS file, some settings of the component depend on it:*
-
-* the speed of the effect playback
-
-* background-color of the effect
 
 **Prepare an <ul> container tag like this:**
     
 ```
 #!html
 
-<ul class="horizontal-hover-effect"></ul>
-<ul class="vertical-hover-effect"></ul>
+<section id="gallery"></section>
 ```
 
 *You can use any class name, the main thing is to transfer the component to the container, in which it will place the necessary DOM and perform the necessary actions.*
