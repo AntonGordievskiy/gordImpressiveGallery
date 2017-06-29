@@ -44,13 +44,23 @@ $('#gallery').gordImpressiveGallery({
 });
 ```
 
-**You can set the following custom settings:**
+**You must set the following settings:**
 
-* **itemsNames**
+* **sourceURL**
 
-    Type: Array
+    Type: String
 
-    Names of menu items.
+    A reference to the JSON array of objects, each of which looks like this:
+
+```
+#!javascript
+
+var arrayOfObjects = `[
+    { "filename": "beautiful-img.jpg", "height": "500", "width": "700" },
+    { "filename": "beautiful-img.jpg", "height": "500", "width": "700" } 
+]`;
+```
+
 
 * **itemsLinks**
 
