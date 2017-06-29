@@ -37,7 +37,7 @@ This is a basic use case (mostly default settings):
 #!javascript
 
 $('#gallery').gordImpressiveGallery({
-    sourceURL        : "https://gordievskiy.com/lab/gordImpressiveGallery/arrayOfObjects",
+    sourceURL        : "https://gordievskiy.com/lab/gordImpressiveGallery/arrayOfObjects.json",
     initHeight       : 200,
     imagesBackground : 'lightgrey',
     margin           : 2,
