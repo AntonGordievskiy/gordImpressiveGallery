@@ -123,7 +123,7 @@ var arrayOfObjects = `[
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript">
             $('#gallery').gordImpressiveGallery({
-                sourceURL        : "http://82.196.1.83:9571/",
+                sourceURL        : "https://gordievskiy.com/lab/gordImpressiveGallery/arrayOfObjects",
                 initHeight       : 200,
                 imagesBackground : 'lightgrey',
                 margin           : 2,
