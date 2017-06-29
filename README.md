@@ -106,36 +106,32 @@ var arrayOfObjects = `[
 
 **Example:**
 ```
-#!javascript
+#!html
 
-$('.vertical-hover-effect').gordHoverEffect({
-    direction : 'vertical',
-    itemsNames: [
-        'Clothing',
-        'Electronics',
-        'Shoes',
-        'Watches',
-        'Jewellery',
-        'Sports'
-    ],
-    itemsLinks: [
-        '/clothing',
-        '/electronics',
-        '/shoes',
-        '/watches',
-        '/jewellery',
-        '/sports'
-    ],
-    itemsClass: "list-items",
-    onClick   : handler
-});
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Impressive Gallery</title>
+        <link href="css/style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <section id="gallery"></section>
 
-function handler ( event ) {
-    console.log( $( event.target ) );
-    return false;
-};
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript">
+            $('#gallery').gordImpressiveGallery({
+                sourceURL        : "http://82.196.1.83:9571/",
+                initHeight       : 200,
+                imagesBackground : 'lightgrey',
+                margin           : 2,
+                minContainerWidth: 0,
+                maxContainerWidth: 1200
+            });
+        </script>
+    </body>
+</html>
 
 ```
-
-*You can initialize instances of the effect one at a time, or you can specify settings for multiple instances at once, if they are the same.
-Vertical and horizontal effects are set separately using different initial 'direction' options.*
