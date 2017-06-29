@@ -62,38 +62,47 @@ var arrayOfObjects = `[
 ]`;
 ```
 
-
-* **itemsLinks**
-
-    Type: Array
-
-    Links that should open when you click on menu items.
-
-* **direction**
-
-    Type: String
-
-    *Default: 'horizontal'*
-
-    Direction of the effect: vertical or horizontal. If your component should work vertically, don't forget to set this parameter.
-
 **Optional settings:**
 
-* **itemsClass**
+* **initHeight**
+
+    Type: Number
+
+    *Default: 200*
+
+    Minimum image height.
+
+* **imagesBackground**
 
     Type: String
 
     *Default: null*
 
-    Set a class for elements created by the component.
+    Any valid css color-coding. Sets background for image containers. They are loaded earlier than the pictures and line up in the grid (noticeably with a slow internet connection).
 
-* **onClick**
+* **margin**
 
-    Type: Function
+    Type: Number
 
-    *Default: null*
+    *Default: 2*
 
-    Set a handler for a click event.
+    Sets the distance between images (margin: 2).
+
+* **minContainerWidth**
+
+    Type: Number
+
+    *Default: 1000*
+
+    Sets the minimum size of the gallery container.
+
+* **maxContainerWidth**
+
+    Type: Number
+
+    *Default: 1600*
+
+    Sets the maximum size of the gallery container.
 
 **Example:**
 ```
