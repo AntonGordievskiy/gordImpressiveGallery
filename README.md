@@ -52,7 +52,7 @@ $('#gallery').gordImpressiveGallery({
 
     Type: String
 
-    A reference to the JSON array of objects, each of which looks like this:
+    A reference to the JSON array of objects, each of which looks like this (use absolute paths):
 
 ```
 #!javascript
@@ -63,8 +63,6 @@ var arrayOfObjects = `[
     ...
 ]`;
 ```
-
-*    Use absolute paths.*
 
 **Optional settings:**
 
