@@ -14,16 +14,12 @@ If any image can not be downloaded, it is removed from the issuance, and the gal
 **Include necessary JS files:**
     
 ```
-#!html
-
 <script type="text/javascript" src="js/gordImpressiveGallery.js"></script>
 ```
 
 **Create a container such as:**
     
 ```
-#!html
-
 <section id="gallery"></section>
 ```
 
@@ -34,8 +30,6 @@ If any image can not be downloaded, it is removed from the issuance, and the gal
 This is a basic use case (mostly default settings):
     
 ```
-#!javascript
-
 $('#gallery').gordImpressiveGallery({
     sourceURL        : "https://gordievskiy.com/lab/gordImpressiveGallery/arrayOfObjects.json",
     initHeight       : 200,
@@ -55,8 +49,6 @@ $('#gallery').gordImpressiveGallery({
     A reference to the JSON array of objects, each of which looks like this (use absolute paths):
 
 ```
-#!javascript
-
 var arrayOfObjects = `[
     {"filename":"https://gordievskiy.com/lab/gordImpressiveGallery/img/img-1.jpg","width":"480","height":"360"},
     {"filename":"https://gordievskiy.com/lab/gordImpressiveGallery/img/img-2.jpg","width":"480","height":"360"},
