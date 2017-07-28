@@ -108,8 +108,6 @@ var arrayOfObjects = `[
 
 **Example:**
 ```
-#!html
-
 <!DOCTYPE html>
 <html>
     <head>
