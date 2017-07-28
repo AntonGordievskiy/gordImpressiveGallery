@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Impressive Gallery</title>
+        <link href="css/style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <a class="repository" href="https://bitbucket.org/AntonGordievsky/gordimpressivegallery">Open repository</a>
+
+        <section id="gallery"></section>
+
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/gordImpressiveGallery.js"></script>
+        <script type="text/javascript">
+            $('#gallery').gordImpressiveGallery({
+                sourceURL        : "https://gordievskiy.com/lab/gordImpressiveGallery/images.json",
+                initHeight       : 200,
+                imagesBackground : 'lightgrey',
+                margin           : 2,
+                minContainerWidth: 0,
+                maxContainerWidth: 1200
+            });
+        </script>
+    </body>
+</html>
