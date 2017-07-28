@@ -31,7 +31,7 @@ This is a basic use case (mostly default settings):
     
 ```
 $('#gallery').gordImpressiveGallery({
-    sourceURL        : "https://gordievskiy.com/lab/gordImpressiveGallery/arrayOfObjects.json",
+    sourceURL        : "https://gordievskiy.com/lab/gordImpressiveGallery/images.json",
     initHeight       : 200,
     imagesBackground : 'lightgrey',
     margin           : 2,
@@ -49,7 +49,7 @@ $('#gallery').gordImpressiveGallery({
     A reference to the JSON array of objects, each of which looks like this (use absolute paths):
 
 ```
-var arrayOfObjects = `[
+var images = `[
     {"filename":"https://gordievskiy.com/lab/gordImpressiveGallery/img/img-1.jpg","width":"480","height":"360"},
     {"filename":"https://gordievskiy.com/lab/gordImpressiveGallery/img/img-2.jpg","width":"480","height":"360"},
     ...
@@ -114,7 +114,7 @@ var arrayOfObjects = `[
         <script type="text/javascript" src="js/gordImpressiveGallery.js"></script>
         <script type="text/javascript">
             $('#gallery').gordImpressiveGallery({
-                sourceURL        : "https://gordievskiy.com/lab/gordImpressiveGallery/arrayOfObjects",
+                sourceURL        : "https://gordievskiy.com/lab/gordImpressiveGallery/images.json",
                 initHeight       : 200,
                 imagesBackground : 'lightgrey',
                 margin           : 2,
